@@ -2,7 +2,7 @@
     <!--Navigation Bar-->
     <header class="flex flex-row justify-between items-center px-12 shadow-md">
         <!--Logo-->
-        <img src="assets/logo.png" alt="Logo" class="h-24">
+        <h1>Logo</h1>
         <nav>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="flex flex-row items-center space-x-12">
