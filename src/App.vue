@@ -1,14 +1,22 @@
 <template>
   <NavBar />
+  <main>
+    <HeroMain />
+    <AboutMain />
+  </main>
 </template>
 
 <script>
 import NavBar from './components/Navbar.vue';
+import HeroMain from './components/Hero.vue';
+import AboutMain from './components/About.vue';
 
 export default {
   name: 'App',
   components: {
     NavBar,
+    HeroMain,
+    AboutMain
     },
 }
 </script>

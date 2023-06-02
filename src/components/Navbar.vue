@@ -2,7 +2,9 @@
     <!--Navigation Bar-->
     <header class="flex flex-row justify-between items-center px-12 shadow-md">
         <!--Logo-->
-        <h1>Logo</h1>
+        <a href="../App.vue">
+          <img src="../assets/logo.png" alt="Logo" class="logo">
+        </a>
         <nav>
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="flex flex-row items-center space-x-12">
@@ -37,5 +39,10 @@ export default {
 </script>
 
 <style>
+.logo{
+    width: 14em;
+    height: 5.5em;
+
+}
 
 </style>
