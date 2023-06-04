@@ -1,6 +1,6 @@
 <template>
     <!--Navigation Bar-->
-    <header class="flex flex-row justify-between items-center px-12 shadow-md">
+    <header class="header shadow-md">
         <!--Logo-->
         <a href="../App.vue">
           <img src="../assets/logo.png" alt="Logo" class="logo">
@@ -39,6 +39,13 @@ export default {
 </script>
 
 <style>
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px;
+}
 .logo{
     width: 14em;
     height: 5.5em;
