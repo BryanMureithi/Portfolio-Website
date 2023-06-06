@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="mt-16 px-12 mb-16 shadow-sm">
+    <section id="about" class="mt-16 px-12 mb-16 shadow-sm mx-auto max-w-screen-xl sm:py-16">
         <div class="">
             <h2 class="text-xl font-semibold text-[#1B263B]">ABOUT ME</h2>
             <p class="font-semibold text-[#415A77]">Read about my history.</p>
@@ -8,7 +8,7 @@
             <section class="bg-[#E0E1DD]">
                 <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                     <div class="hidden lg:mt-0 lg:col-span-5 lg:flex mr-12">
-                       <img src="../assets/handcoding.svg" alt="" class="w-full">
+                       <img src="../assets/avatar.jpg" alt="" class="w-full">
                     </div>
                     <div class="mr-auto place-self-center lg:col-span-7">
                        <p class="text-md text-[#415A77] w-12/12 leading-loose italic">I am currently a student at the Catholic University of Eastern Africa, pursuing

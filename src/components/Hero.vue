@@ -1,7 +1,7 @@
 <template>
-    <section class="hero shadow-sm">
+    <section class="hero shadow-sm mx-auto max-w-screen-xl sm:py-16">
         <div class="hero-description">
-            <h1 class="text-4xl font-bold text-[#1B263B]">Hi👋🏾, I'm Bryan Mureithi</h1>
+            <h1 class="text-4xl font-bold text-[#1b263b]">Hi👋🏾, I'm Bryan Mureithi</h1>
             <h2 class="text-xl w-9/12 text-[#1B263B]">UI/UX Designer & Front-end Web Developer</h2>
             <p class="w-8/12 text-[#415A77]">I create experiences that make people's lives simple.</p>
             <div class="mt-12 flex flex-row items-center space-x-8">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="../assets/hero.svg" alt="">
+            <img src="../assets/coding.svg" alt="">
         </div>
     </section>
 </template>
