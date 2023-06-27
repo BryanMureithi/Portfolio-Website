@@ -12,7 +12,7 @@
                         <a href="../App.vue" class="block">Home</a>
                     </li>
                     <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
-                        <a href="../About.vue" class="block">About Me</a>
+                        <a href="#about" class="block">About Me</a>
                     </li>
                     <li class="text-[#1B263B] text-sm hover:text-[#415A77]">
                         <a href="#services" class="block">Services</a>

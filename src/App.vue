@@ -1,13 +1,16 @@
 <template>
-  <header>
+  <div>
+    <header>
     <NavBar />
   </header>
   <main>
     <HeroMain/>
     <AboutMain/>
     <SkillsMain/>
+    <ProjectsMain/>
   </main>
   <FooterMain/>
+  </div>
 </template>
 
 <script>
@@ -16,6 +19,7 @@ import HeroMain from './components/Hero.vue';
 import AboutMain from './components/About.vue';
 import FooterMain from './components/Footer.vue';
 import SkillsMain from './components/Skills.vue';
+import ProjectsMain from './components/Projects.vue';
 
 export default {
   name: 'App',
@@ -25,6 +29,7 @@ export default {
     AboutMain,
     FooterMain,
     SkillsMain,
+    ProjectsMain,
     },
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <section id="about" class="mt-16 px-12 mb-16 shadow-sm mx-auto max-w-screen-xl sm:py-16">
+    <section id="about" class="mt-16 mb-16 mx-auto max-w-screen-xl sm:py-16">
         <div class="">
             <h2 class="text-xl font-semibold text-[#1B263B]">ABOUT ME</h2>
             <p class="font-semibold text-[#415A77]">Read about my history.</p>

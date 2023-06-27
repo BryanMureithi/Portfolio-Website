@@ -1,9 +1,9 @@
 <template>
-    <section class="hero shadow-sm mx-auto max-w-screen-xl sm:py-16">
+    <section class="hero mx-auto max-w-screen-xl sm:py-16">
         <div class="hero-description">
             <h1 class="text-4xl font-bold text-[#1b263b]">Hi👋🏾, I'm Bryan Mureithi</h1>
-            <h2 class="text-xl w-9/12 text-[#1B263B]">UI/UX Designer & Front-end Web Developer</h2>
-            <p class="w-8/12 text-[#415A77]">I create experiences that make people's lives simple.</p>
+            <h2 class="text-xl w-9/12 text-[#1B263B]">UI/UX Designer & Full Stack Developer</h2>
+            <p class="w-4/12 text-[#415A77]">Embarking on a journey to redefine digital landscapes through the fusion of expertly crafted code, immersive user interfaces, and flawless user experiences that leave a lasting impression</p>
             <div class="mt-12 flex flex-row items-center space-x-8">
                 <a href="#contactUs" class="bg-[#1B263B] hover:bg-[#415A77] text-[#E0E1DD] text-sm px-5 py-3">VIEW PROJECTS</a>
                 <a href="https://www.dropbox.com/s/hd6k1ixw21009lr/Bryan%20Mureithi%20Resume.pdf?dl=0" class="bg-transparent text-[#1B263B] text-sm p-3 border border-gray-500 hover:bg-[#1B263B] hover:text-[#E0E1DD]">RESUME</a>
@@ -20,9 +20,6 @@
                 </a>
             </div>
         </div>
-        <div class="hero-image">
-            <img src="../assets/coding.svg" alt="">
-        </div>
     </section>
 </template>
 
@@ -33,18 +30,11 @@ export default {
 </script>
 
 <style>
-.hero{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 4rem;
-}
 .hero-description{
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    margin: 0 auto ;
 }
 
 .hero-image{
